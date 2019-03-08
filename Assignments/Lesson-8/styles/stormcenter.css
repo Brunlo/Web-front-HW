@@ -1,0 +1,56 @@
+label {
+display: inline-block;
+min-width: 100px;
+}
+form div {
+    margin-top: 10px;
+}
+
+body {
+
+    background-color: grey;
+}
+
+li {
+
+    color: blue;
+}
+
+.ridgeborder {
+    border-color: lightblue;
+        border-width:5px;  
+        border-style:ridge;
+        background-color: firebrick;
+}
+
+.textbox {
+    border-width:5px;  
+    border-style:ridge;
+    background-color: firebrick;
+    
+}
+
+.textarea {
+    border-width:5px;  
+    border-style:ridge;
+    background-color: firebrick;
+    border-color: brown;
+}
+
+div, .ty {
+    float: left;
+    border-color: lightblue;
+     
+     border-style:ridge;
+    padding: 30px; 
+    width: 300px;
+    resize: both;
+    overflow: none;
+    background-color: firebrick;
+  }
+
+
+}
+
+
+
