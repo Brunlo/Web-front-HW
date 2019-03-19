@@ -4,6 +4,6 @@ weatherRequest.open('GET','//api.openweathermap.org/data/2.5/weather?zip=55333,u
 weatherRequest.send();
 
 weatherRequest.onload = function()  {
-    var weatherDaa = JSON.parse(weatherRequest.responseText);
+    var weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 }
