@@ -1,4 +1,5 @@
 /*html selectors */
+
 h1 {
   font-family: 'Audiowide', cursive;
   color: orchid;
@@ -73,7 +74,7 @@ p {
   max-width: 650px ;
 }
 
-@media screen and (max-width: 500px) {
+
   .forcast {
 display: none
   

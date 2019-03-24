@@ -1,4 +1,5 @@
 /*html selectors */
+@media only screen and (min-width: 900px) {
 h1 {
     font-family: 'Audiowide', cursive;
     color: orchid;
@@ -68,11 +69,13 @@ header img, .headings {
 .pres a { background-color: blue; }
 
 p {
+    
     margin 10px;
-    max-width: 650px ;
+    max-width: 650px;
 }
+ 
 
-@media screen and (min-width: 800px) {
+
     body {
 color: black
     

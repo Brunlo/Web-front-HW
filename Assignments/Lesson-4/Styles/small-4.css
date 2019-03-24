@@ -2,58 +2,69 @@
 h1 {
     font-family: 'Audiowide', cursive;
     color: orchid;
-    
+
 }
+
 footer {
     text-align: center;
 }
-nav { 
+
+nav {
     font-family: 'Faster One', cursive;
-   
+
 }
 
 ul {
     list-style: none;
 
 }
- div
-    {
-     color: green;
 
-    }
+div {
+    color: green;
 
-    /*Class selectors */
+}
+
+/*Class selectors */
 
 
-    .motto{
-        font-family: 'Faster One', cursive;
-        color: blue;
-        font-size: 14pt;
-        
-    }
+.motto {
+    font-family: 'Faster One', cursive;
+    color: blue;
+    font-size: 14pt;
 
- /*Id selectors */
+}
 
- #main-title {
-     color: orange
- }
+/*Id selectors */
+
+#main-title {
+    color: orange
+}
 
 body {
-background: url( http://i.imgur.com/CFjU41M.jpg);
-        
-    
-	
+    background: url(http://i.imgur.com/CFjU41M.jpg);
+
+
+
 }
 
 header {
-	
+
     text-align: center;
-    background: url( http://i.imgur.com/CFjU41M.jpg)
+    background: url(http://i.imgur.com/CFjU41M.jpg)
 }
 
-header img, .headings {
-	display: inline-block;
-	vertical-align: middle;
+header img,
+.headings {
+    display: inline-block;
+    vertical-align: middle;
     margin: 10px;
-   
+
+}
+
+li:hover {
+    background-color: yellow;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#2864c4;
 }

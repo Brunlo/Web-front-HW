@@ -78,20 +78,35 @@ function showTown(jsonObj) {
 
         var myPara3 = document.createElement('p');
 
+        var myPara4 = document.createElement('p');
+
         var myList = document.createElement('ul');
 
 
 
         myH2.textContent = townData[i].townName;
 
-        myPara1.textContent = 'Year Founded: ' + townData[i].yearFounded;
+        myPara1.textContent = 'Name: ' + townData[i].name;
 
-        myPara2.textContent = 'Current Population: ' + townData[i].currentPopulation;
+        myPara2.textContent = 'Year Founded: ' + townData[i].yearFounded;
 
-        myPara3.textContent = 'Average Rainfall: ' + townData[i].averageRainfall;
-        myPara3.className += 'test';
+        myPara3.textContent = 'Current Population: ' + townData[i].currentPopulation;
+
+        myPara4.textContent = 'Average Rainfall: ' + townData[i].averageRainfall;
+        
+
+        var myImg = document.createElement('img');
+        myImg.className += "image";
+        if (townData[i].name === 'Preston') {
+            myImg.src = "./image/Prestonpicture.jpg ";
+        } else if (townData[i].name === 'Soda Springs') {
+            myImg.src = "./image/SodaSprings.jpg ";
+        } else {
+            myImg.src = "./image/SpringField.jpg ";
+        }
 
 
+        
         var events = townData[i].events;
 
         for (var j = 0; j < events.length; j++) {
@@ -114,8 +129,9 @@ function showTown(jsonObj) {
 
         myArticle.appendChild(myPara3);
 
+        myArticle.appendChild(myPara4);
         //myArticle.appendChild(myList);
-
+        myArticle.appendChild(myImg);
 
 
         header.appendChild(myArticle);

@@ -1,0 +1,66 @@
+/*html selectors */
+
+ul {
+    position: absolute;
+  top: 150px;
+    
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    color: green;
+    
+}
+footer {
+    text-align: center;
+}
+nav { 
+    font-family: 'Faster One', cursive;
+   
+}
+
+ul {
+    list-style: none;
+
+}
+ div
+    {
+     color: green;
+
+    }
+
+    /*Class selectors */
+
+
+    .motto{
+        font-family: 'Faster One', cursive;
+        color: blue;
+        font-size: 14pt;
+        
+    }
+
+ /*Id selectors */
+
+ #main-title {
+     color: orange
+ }
+
+body {
+
+   background-color: lightblue;     
+    
+	
+}
+
+header {
+	
+    text-align: right;
+  
+}
+
+header img, .headings {
+	
+	
+   
+}
+

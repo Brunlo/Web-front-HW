@@ -1,5 +1,5 @@
 /* || general styles */
-
+@media only screen and (min-width: 501px) {
 html {
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
@@ -57,4 +57,11 @@ h2 {
     display: none
 }
 
+.image {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
 /* Target that class here and add border style */
+  }
