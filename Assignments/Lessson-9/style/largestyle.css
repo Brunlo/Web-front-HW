@@ -54,7 +54,9 @@
   }
 
 .grid {
-  border-style: 1px double red;
+  /* border-style: 1px outset;
+  margin: 1rem auto; */
+
 }
   body {
     background-color: grey;
@@ -62,9 +64,10 @@
   }
 
   .grid article {
-    border: 1px solid red;
-    
-    margin: 1rem auto;
+    border: 20px red;
+    border-style: outset;
+    padding: 0px;
+    margin: 10rem auto;
 }
 
  }

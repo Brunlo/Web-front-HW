@@ -1,7 +1,9 @@
 .wborder {
-    
+    text-align: center;
     border-style: outset;
     border-color: black;
+    border-collapse: collapse;
+    
 }
 
 body {
