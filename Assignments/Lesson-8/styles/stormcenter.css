@@ -47,9 +47,12 @@ div, .ty {
     resize: both;
     overflow: none;
     background-color: firebrick;
+    margin: 1rem auto;
   }
 
 
+.lorem {
+    width: 100px
 }
 
 

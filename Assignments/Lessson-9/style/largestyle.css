@@ -58,9 +58,13 @@
 }
   body {
     background-color: grey;
+    
   }
 
   .grid article {
     border: 1px solid red;
+    
+    margin: 1rem auto;
 }
-}
+
+ }

@@ -1,0 +1,9 @@
+.wborder {
+    
+    border-style: outset;
+    border-color: black;
+}
+
+body {
+    background-color: lightseagreen;
+}
