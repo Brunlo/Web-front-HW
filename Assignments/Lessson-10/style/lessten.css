@@ -1,4 +1,4 @@
-.wborder {
+.wborder, th, tr, td {
     text-align: center;
     border-style: outset;
     border-color: black;

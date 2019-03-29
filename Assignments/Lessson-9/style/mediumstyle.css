@@ -1,5 +1,5 @@
 /* || general styles */
-@media only screen and (max-width: 501px) {
+@media only screen and (min-width: 501px) {
     html {
         font-family: 'helvetica neue', helvetica, arial, sans-serif;
     }

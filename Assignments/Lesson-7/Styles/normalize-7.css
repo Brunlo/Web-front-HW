@@ -48,7 +48,8 @@ ul {
  }
 
 body {
-background: url( http://i.imgur.com/CFjU41M.jpg);
+/* background: url( http://i.imgur.com/CFjU41M.jpg); */
+background: cornflowerblue;
         
     
 	
@@ -57,7 +58,8 @@ background: url( http://i.imgur.com/CFjU41M.jpg);
 header {
 	
     text-align: center;
-    background: url( http://i.imgur.com/CFjU41M.jpg)
+    /* background: url( http://i.imgur.com/CFjU41M.jpg) */
+    background: cornflowerblue;
 }
 
 header img, .headings {
