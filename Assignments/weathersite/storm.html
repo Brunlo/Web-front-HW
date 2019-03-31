@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Styles/adjust.css">
+    
+    <title>Document</title>
+</head>
+<Nav>
+
+</Nav>
+<header>
+    <main>
+        <div class="ridgeborder">  
+            <nav class="navi">
+                <ul>
+                    <li class="home"><a href="#">Home</a></li>
+                    <li> <a href="./prestonpage.html">Preston</a></li>
+                    
+                    <li> <class="soda"><a href="./sodapage.html">Soda Springs</a></li>
+                    
+                    <li>
+                            <class="fish"><a href="./fishhaven.html">Fish Haven</a>
+                    </li>
+                    <li>
+                            <class="storm"><a href="./storm.html">Storm Center</a>
+                    </li>
+                    <li>
+                            <class="gall"><a href="#">Gallery</a>
+                    </li>
+
+            </ul>
+
+                </div>
+
+        
+        
+        
+                
+
+        <form action="thankyou.html" method="GET">
+            <div>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullName" name="FullName" required />
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="user@domain.com" />
+            </div>
+            <div>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required />
+            </div>
+            <div>
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="zipcode" name="zipcode" required />
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" />
+
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+            </select>
+
+
+            <div>
+                <label for="stormtype">Storm Type:</label>
+                <select type="text" id="Storm Type" name="Storm Type">
+                    <option value="">Select Storm Type</option>
+                    <option value="1">Flash</option>
+                    <option value="2">Flood</option>
+                    <option value="3">Hail</option>
+                    <option value="4">Hurricane</option>
+                    <option value="5">Thunderstorm</option>
+                    <option value="6">Tornado</option>
+
+
+                </select>
+
+            </div>
+            <div> 
+            <fieldset>
+                <label for="rating">Rating (1 to 10):</label>
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                    onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span><br>
+
+            </fieldset>
+        </div>
+        <div> 
+            <label for="options">Option:</label>
+            <select type="text" id="Option" name="Option">
+                <option value="0">Home</option>
+                <option value="1">Preston</option>
+                <option value="2">Soda Springs</option>
+                <option value="3">Fish Haven</option>
+                <option value="4">Storm Center</option>
+                <option value="5">Gallery</option>
+
+            </div> 
+
+
+            </select>
+
+
+        </form>
+        <form class="textbox">
+            <input type="radio" name="gender" value="male"> Yes<br>
+            <input type="radio" name="gender" value="female"> Maybe<br>
+            <input type="radio" name="gender" value="other"> No
+          </form>
+
+          <textarea class="textarea" rows="4" cols="50">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </textarea>    
+    </main>
+</header>
+
+<script src="./scripts/adjust.js"></script>
+
+<body>
+
+</body>
+
+</html>
