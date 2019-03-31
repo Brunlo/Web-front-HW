@@ -1,6 +1,6 @@
 //current Weather
 var weatherRequest = new XMLHttpRequest();
-weatherRequest.open('GET','https://api.openweathermap.org/data/2.5/weather?zip=83263,us&appid=9ebb09608680154b476f1a983cedac5e&units=imperial', true)
+weatherRequest.open('GET','https://api.openweathermap.org/data/2.5/weather?zip=83276,us&appid=9ebb09608680154b476f1a983cedac5e&units=imperial', true)
 weatherRequest.send();
 
 weatherRequest.onload = function()  {
