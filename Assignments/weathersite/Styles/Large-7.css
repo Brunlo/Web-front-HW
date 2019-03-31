@@ -1,0 +1,148 @@
+/*html selectors */
+@media only screen and (min-width: 1200px) {
+h1 {
+  font-family: 'Audiowide', cursive;
+  color: orchid;
+
+}
+
+footer {
+  text-align: bottom;
+}
+
+#navi {
+  display: contents;
+}
+
+nav {
+  font-family: 'Faster One', cursive;
+
+}
+
+ul {
+  list-style: none;
+
+}
+
+div {}
+
+/*Class selectors */
+
+
+.motto {
+  font-family: 'Faster One', cursive;
+  color: blue;
+  font-size: 14pt;
+
+}
+
+
+li {
+  float: left;
+  margin: 10px;
+  background-color: green;
+
+}
+
+/*Id selectors */
+
+#main-title {
+  color: orange
+}
+
+body {
+  /* background: url(http://i.imgur.com/CFjU41M.jpg); */
+  background: cornflowerblue;
+
+
+}
+
+header {
+
+  text-align: center;
+  /* background: url(http://i.imgur.com/CFjU41M.jpg) */
+  background: cornflowerblue;
+}
+
+header img,
+.headings {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+
+}
+
+.pres a {
+  background-color: blue;
+}
+
+p {
+  margin 10px;
+  max-width: 650px;
+}
+
+
+  body {
+    color: black
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .forcast {
+    display: block;
+  }
+
+  table {
+    text-align: center;
+  }
+
+  table,
+  tr,
+  td {
+    border: solid 10px black
+  }
+
+  td {
+    min-width: 50px
+  }
+
+  .currentdate {}
+
+  .hideb {
+    display: none;
+  }
+
+  
+
+  .shadow, .img {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 30px #333;
+    margin: 1rem auto;
+    display: block;
+    }
+
+  .all {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  figcaption {
+    width: 250px;
+  padding: 10px;
+  border: 5px solid blue;
+  margin: 0;
+  text-align: center;
+  
+  }
+
+  
+
+
+
+  
+
+ 
