@@ -3,7 +3,7 @@ myObj = {
   "name":"John",
   "age":30,
   "cars": [
-    {"name":"Salt Lake Closures", "Temples":["Start", "2019-04-06", "End", "2019-04-06" ]},
+    {"name":"Salt Lake Closures", "Temples":["Start:", "2019-07-02", "End:", "2019-12-31" ]},
     // {"name":"Las Vegas Closures", "Temples":["Start", "2019-04-06", "End", "2019-04-06"]},
     // {"name":"Manti", "Temples":["500", "Panda"] },
     // {"name":"Rexburg", "Temples":["500", "Panda"] }
@@ -25,7 +25,7 @@ myObj = {
   "age":30,
   "cars": [
     // {"name":"Salt Lake Closures", "Temples":["Start", "2019-04-06", "End", "2019-04-06" ]},
-    {"name":"Las Vegas Closures", "Temples":["Start", "2019-04-06", "End", "2019-04-06"]},
+    {"name":"Las Vegas Closures", "Temples":["Start:", "2019-07-04", "End:", "2019-12-25"]},
     // {"name":"Manti", "Temples":["Start", "2019-04-06", "End", "2019-04-06"] },
     // {"name":"Rexburg", "Temples":["Start", "2019-04-06", "End", "2019-04-06"] }
   ]
@@ -47,7 +47,7 @@ myObj = {
   "cars": [
     // {"name":"Salt Lake Closures", "Temples":["Start", "2019-04-06", "End", "2019-04-06" ]},
     // {"name":"Las Vegas Closures", "Temples":["Start", "2019-04-06", "End", "2019-04-06"]},
-    {"name":"Manti", "Temples":["Start", "2019-04-06", "End", "2019-04-06"] },
+    {"name":"Manti Closures", "Temples":["Start:", "2019-06-08", "End:", "2019-12-31"] },
     // {"name":"Rexburg", "Temples":["Start", "2019-04-06", "End", "2019-04-06"] }
   ]
 }
@@ -70,7 +70,7 @@ myObj = {
     // {"name":"Salt Lake Closures", "Temples":["Start", "2019-04-06", "End", "2019-04-06" ]},
     // {"name":"Las Vegas Closures", "Temples":["Start", "2019-04-06", "End", "2019-04-06"]},
     // {"name":"Manti", "Temples":["Start", "2019-04-06", "End", "2019-04-06"] },
-    {"name":"Rexburg", "Temples":["Start", "2019-04-06", "End", "2019-04-06"] }
+    {"name":"Rexburg Closures", "Temples":["Start:", "2019-04-15", "End:", "2020-1-01"] }
   ]
 }
 for (i in myObj.cars) {
@@ -80,3 +80,18 @@ for (i in myObj.cars) {
   }
 }
 document.getElementById("Rexburgg").innerHTML = x;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

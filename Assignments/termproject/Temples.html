@@ -8,13 +8,16 @@
     <meta name="keywords" content=" Temple Inn & Suites">
     <meta name="author" content="logan">
     <title> CodeMenus | About </title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/medium.css">
+    <link rel="stylesheet" href="./Styles/small.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="container">
       <div id="branding">
-       <h1><span class="highlight"> Temple Inn & Suites</span></h1>
+          <img class="templogo" src="./images/templelogo.png">   <h1><span class="highlight"> Temple Inn & Suites  Temple Time is the Best Time</span></h1>
 
       </div>
       <nav>
@@ -40,62 +43,43 @@
     </div> 
 </section>
 
+
 <button class="accordion">Salt Lake Temple</button>
 <div class="panel">
   <div class="headText">
-    <h1>OpenWeatherMap.org API</h1>
+      
+      <ul>
+          
+          <li>Address, 50 N West Temple, Salt Lake City, UT 84150</li>
+          <br>
+          <li> Telephone, (801) 240-2640,  Email: SaltLakeTemple@ldschurch.org </li>
+          <br>
+          <li>Services: Clothing rental available
+              Cafeteria available
+              No patron housing available
+              Distribution center nearby</li>
+              <br>
+          <li>History: The Salt Lake Temple is a temple of The Church of Jesus Christ of Latter-day Saints located on Temple Square in Salt Lake City, Utah, United States. At 253,015 square feet, it is the largest LDS temple by floor area. </li>
+          <br>
+          <li>Ordinance/Session Schedule, Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow enough time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple. </li>
+        </ul>
+    
+    
+     
+    
     </div>
-    <div class="json">  
+    <div class="">  
     <p>The Current Wind Speed <span id="currentWind"></span>&deg; mph  </p>
     <p>The Current Humidity <span id="currentHumidity"></span>&deg; %  </p>
-  <p>The current temperature in Preston, Idaho is <span id="currenttemp"></span>&deg; F
-  <img id="weather_icon" src="placeholder"  alt="Current Weather">
+  <p>The current temperature in Preston, Idaho is <span id="currentTemp"></span>&deg; F
+  <img id='weathericon' src="placeholder"  alt="Current Weather"> </p>
 </p>
 </div>
-<table class="wborder"> 
-<thread> 
-    <tr>
-<th>Day 1</th>
-<th>Day 2</th>
-<th>Day 3</th>
-<th>Day 4</th>
-<th>Day 5</th>
-<th>Day 6</th>
-<th>Day 7</th>
-<th>Day 8</th>
-<th>Day 9</th>
-<th>Day 10</th>
 
 
-    </tr>
-</thread>
-<tbody> 
-<tr>
-<td><span id="day1"> </span> "°F" </td>
-<td><span id="day2"> </span> "°F" </td>
-<td><span id="day3"> </span> "°F" </td>
-<td><span id="day4"> </span> "°F" </td>
-<td><span id="day5"> </span> "°F" </td>
-<td><span id="day6"> </span> "°F" </td>
-<td><span id="day7"> </span> "°F" </td>
-<td><span id="day8"> </span> "°F" </td>
-<td><span id="day9"> </span> "°F" </td>
-<td><span id="day10"> </span> "°F" </td>
 
 
-</tr>
-
-
-</tbody>
-    
-
-
-</table>
-
-</main>
-
-<script src="./scripts/weatherapi.js"></script>
-  <p>Lorem ipsum...</p>
+ 
 
  
  
@@ -104,9 +88,52 @@
 
 </div>
 
+
+
+
+
+
 <button class="accordion">Las Vegas Temple</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <div class="headText">
+
+    
+
+<ul>
+          
+    <li>Address, 827 Temple View Dr, Las Vegas, NV 89110.</li>
+    <br>
+    <li> Telephone, (702) 452-5011,  Email: LasVegasTemple@ldschurch.org.</li>
+    <br>
+    <li>Services: Clothing rental available
+        Cafeteria available
+        No patron housing available
+        Distribution center nearby.</li>
+        <br>
+    <li>History: The Las Vegas Nevada Temple is the 43rd operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church).
+
+Located in the Sunrise Manor CDP near Las Vegas, Nevada, the temple sits on 10.3 acres (4.2 ha) of land at the base of Frenchman Mountain. A groundbreaking ceremony and site dedication for the temple were held in November 1985. Gordon B. Hinckley, then a counselor in the church's First Presidency, presided and gave the dedication prayer. Construction began soon after the ceremony.
+
+After construction was completed, the temple was open to the public for tours between November 16 and December 9, 1989. Almost 300,000 toured the temple and its grounds during these three weeks. The temple has six spires, the highest of which is 119 feet (36 m). At the top of this tower stands a ten-foot statue of the angel Moroni. The exterior is a white finish of pre-cast stone walls with a copper roof. The temple has 192 rooms, which includes four ordinance rooms, a Celestial room, six sealing rooms, a baptismal font, and other facilities to meet the needs of the purposes of the temple. Hinckley dedicated the Las Vegas Nevada Temple in sessions held December 16–18, 1989. Eleven sessions were held, and more than 30,000 Latter-day Saints attended the dedicatory services.
+</li>
+    <br>
+    <li>Ordinance/Session Schedule, Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow enough time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple. </li>
+  </ul>
+
+
+  
+</div>
+<div class="">  
+<p>The Current Wind Speed <span id="vegasWind"></span>&deg; mph  </p>
+<p>The Current Humidity <span id="vegasHumidity"></span>&deg; %  </p>
+<p>The current temperature in Preston, Idaho is <span id="vegastemp"></span>&deg; F
+<img id='vegasicon' src="placeholder"  alt="Current Weather"> </p>
+
+</p>
+
+</div>
+
+
 
 
   <p id="Vegas"></p>
@@ -116,29 +143,96 @@
 
 <button class="accordion">Manti Temple </button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <div class="headText">
+
+    <ul>
+
+      <li>Address, 200 East 510 North, Manti, UT 84642.</li>
+          <br>
+          <li> Telephone, (435) 835-2291,  Email: MantiTemple@ldschurch.org.</li>
+          <br>
+          <li>Services: Clothing rental available
+              Cafeteria available
+              No patron housing available
+              Distribution center nearby.</li>
+              <br>
+          <li>History: The Manti Temple was completed in 1888, and a private dedication was held on May 17, 1888, with a prayer written by Wilford Woodruff. Three public dedications were held on May 21–23, 1888, and were directed by Lorenzo Snow. The Manti Temple was the location of the Holy of Holies until the Salt Lake Temple was dedicated.
+      </li>
+          <br>
+          <li>Ordinance/Session Schedule, Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow enough time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple. </li>
+        </ul>
+    
+    
+  </div>
+  <div class="">  
+  <p>The Current Wind Speed <span id="maintiWind"></span>&deg; mph  </p>
+  <p>The Current Humidity <span id="maintiHumidity"></span>&deg; %  </p>
+  <p>The current temperature in Preston, Idaho is <span id="maintiTemp"></span>&deg; F
+  <img id='maintiicon' src="placeholder"  alt="Current Weather"> </p>
+  
+  </p>
+  
+  </div>
+
+
+
 
   <p id="Mantis"></p>
 
 </div>
 
-</div>
+
 
 <button class="accordion">Rexburg Temple</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <div class="headText">
+
+    </ul>
+
+    <li>Address, 750 S 2nd E, Rexburg, ID 83440.</li>
+        <br>
+        <li> Telephone, (208) 656-0880,  Email: RexburgTemple@ldschurch.org
+    .</li>
+        <br>
+        <li>Services: Clothing rental available
+            Cafeteria available
+            No patron housing available
+            Distribution center nearby. </li>
+            <br>
+        <li>History: The Rexburg Idaho Temple is the 125th operating temple of The Church of Jesus Christ of Latter-day Saints. Announced in late 2003, the temple was dedicated on February 10, 2008 and was the first temple dedicated by Thomas S. Monson as the church's new president.
+    </li>
+        <br>
+        <li>Ordinance/Session Schedule, Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow enough time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple. </li>
+      </ul>
+    
+
+    
+  </div>
+  <div class="">  
+  <p>The Current Wind Speed <span id="rexWind"></span>&deg; mph  </p>
+  <p>The Current Humidity <span id="rexHumidity"></span>&deg; %  </p>
+  <p>The current temperature in Preston, Idaho is <span id="rexTemp"></span>&deg; F
+  <img id='rexicon' src="placeholder"  alt="Current Weather"> </p>
+  
+  </p>
+  
+  </div>
+
+
 
   <p id="Rexburgg"></p>
 </div>
-
+</main>
   <footer>
-    <p> CodeMenus, Copyright &copy; 2019 </p>
+    <p> CodeMenus, Copyright &copy; 2019 OpenWeatherMap.org API </p>
   </footer>
 
   <script src="./scripts/accordian.js"></script>
   <script src="./scripts/weathApi.js"></script>
+  
   <script src="./scripts/Closure.js"></script>
   <script src="./jsondata/closures.json"></script>
 
+</section>
   </body>
 </html>
